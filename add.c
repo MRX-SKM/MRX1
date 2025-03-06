@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c;
+	int a,b,c,d;
 	printf("Enter two numbers: ");
-	scanf("%d,%d",&a,&b);
-	c = a+b;
+	scanf("%d,%d,%d",&a,&b,&d);
+	c = a+b+d;
 	printf("result: %d\n",c);
 	return 0;
 
