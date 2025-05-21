@@ -6,6 +6,7 @@ int main()
 	scanf("%d,%d,%d",&a,&b,&d);
 	c = a+b+d;
 	printf("result: %d\n",c);
+	printf("Waste");
 	return 0;
 
 }
